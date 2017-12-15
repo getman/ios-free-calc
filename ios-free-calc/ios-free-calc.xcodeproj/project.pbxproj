@@ -74,6 +74,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8405C91A1FDF2A86005F6D8B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				84349CFD1FDEC3E200F257DB /* AppDelegate.swift */,
+				84349D041FDEC3E200F257DB /* Assets.xcassets */,
+				84349D061FDEC3E200F257DB /* LaunchScreen.storyboard */,
+				84349D091FDEC3E200F257DB /* Info.plist */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		84349CF11FDEC3E200F257DB = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +108,9 @@
 		84349CFC1FDEC3E200F257DB /* ios-free-calc */ = {
 			isa = PBXGroup;
 			children = (
-				84349CFD1FDEC3E200F257DB /* AppDelegate.swift */,
+				8405C91A1FDF2A86005F6D8B /* SupportingFiles */,
 				84349CFF1FDEC3E200F257DB /* ViewController.swift */,
 				84349D011FDEC3E200F257DB /* Main.storyboard */,
-				84349D041FDEC3E200F257DB /* Assets.xcassets */,
-				84349D061FDEC3E200F257DB /* LaunchScreen.storyboard */,
-				84349D091FDEC3E200F257DB /* Info.plist */,
 			);
 			path = "ios-free-calc";
 			sourceTree = "<group>";
@@ -419,6 +427,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LV7CD9334C;
 				INFOPLIST_FILE = "ios-free-calc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.aparfenov.ios.ios-free-calc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,6 +441,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LV7CD9334C;
 				INFOPLIST_FILE = "ios-free-calc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.aparfenov.ios.ios-free-calc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +526,7 @@
 				84349D241FDEC3E200F257DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84349D251FDEC3E200F257DB /* Build configuration list for PBXNativeTarget "ios-free-calcTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +535,7 @@
 				84349D271FDEC3E200F257DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84349D281FDEC3E200F257DB /* Build configuration list for PBXNativeTarget "ios-free-calcUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +544,7 @@
 				84349D2A1FDEC3E200F257DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
